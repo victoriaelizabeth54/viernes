@@ -1,6 +1,6 @@
 fetch("viernes.json")
 .then(function(response){
-    return response.json;
+    return response.json();
 })
 .then(function(viernes){
     let placeholder=document.querySelector("#data-output");
